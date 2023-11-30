@@ -29,7 +29,7 @@ Project experience
 
 Courses
 =====
-* Cumulative GPA: 3.917/4.3, Major GPA: 3.982/4.3
+* Cumulative CGA: 3.917/4.3, Major CGA: 3.982/4.3, WES CGA 3.93/4.0
 * Selected courses: MATH2431 Honors Probability (A+), COMP3711 Design and Analysis of Algorithms (A+), MATH3043 Honors Real Analysis (A)
 
 Awards
