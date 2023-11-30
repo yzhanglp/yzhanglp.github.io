@@ -5,8 +5,7 @@ main:
 
   # - title: "Talks"
   #   url: /talks/    
- - title: "CV"
-    url: /files/ZYH_CV.pdf
+
   # - title: "Teaching"
   #   url: /teaching/    
     
@@ -16,8 +15,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    url: /assets/files/ZYH_CV.pdf
     
   # - title: "Guide"
   #   url: /markdown/
