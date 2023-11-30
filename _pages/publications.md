@@ -7,8 +7,8 @@ author_profile: true
 
 - [**DragVideo: Interactive Drag-style Video Editing**]()
  <br /> CVPR24 Under Review
- <br /> Yufan Deng*, Ruida Wang*, Yuhao Zhang*, __*ZHANG Yuhao*__, Chi-Keung Tang, Yu-Wing Tai
- <br /> ("*" represents for equal contribution)
+ <br /> Yufan Deng\*, Ruida Wang\*,  __ZHANG Yuhao\*__, Chi-Keung Tang, Yu-Wing Tai
+ <br /> ("\*" represents for equal contribution)
 
 Note
 ======
