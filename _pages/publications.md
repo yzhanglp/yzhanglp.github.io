@@ -5,12 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+- [**DragVideo: Interactive Drag-style Video Editing**]()
+ <br /> CVPR24 Under Review
+ <br /> Yufan Deng*, Ruida Wang*, Yuhao Zhang*, __*ZHANG Yuhao*__, Chi-Keung Tang, Yu-Wing Tai
+ <br /> ("*" represents for equal contribution)
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+Note
+======
+- **Understanding the Theory Behind Transformers: An Overview of current research** (to be released)
+<br /> COMP5212 Course Project
+<br /> A brief summary of some current research on understanding Transformer
