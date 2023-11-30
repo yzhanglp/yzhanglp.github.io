@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a third-year student majoring in Computer Science & Mathematics in HKUST. My research interest lies in ComputerVision. I am now doing research guided by Chi-Keung Tang and Yu-Wing Tai. Feel free to chat if you have similar research interest with me!
+Hi! I am a third-year student majoring in Computer Science & Mathematics in HKUST. My research interest lies in Computer Vision and Machine Learning. I am now doing research guided by Chi-Keung Tang and Yu-Wing Tai. Feel free to chat if you have similar research interest with me!
 
 
 
