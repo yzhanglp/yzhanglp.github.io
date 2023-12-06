@@ -1,7 +1,7 @@
 ---
 title: "DragVideo: Interactive Drag-style Video Editing"
 collection: publications
-permalink: 
+permalink: https://arxiv.org/abs/2312.02216
 excerpt: 'We propose a novel drag-style video editing method for users to interactively editing video through diffusion models.'
 date: 2023-11-01
 venue: 'under CVPR Review'
