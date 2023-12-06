@@ -23,7 +23,7 @@ Project experience
   * Supervised under Professor [Chi-Keung Tang](https://cse.hkust.edu.hk/~cktang/bio.html) and Professor [Yu-Wing Tai](https://yuwingtai.github.io/)
   * Working on using diffusion model to apply drag-style editing on video
 
-* Summer 2021 ~ Fall 2023 : Undergraduate research program
+* Summer 2022 ~ Fall 2023 : Undergraduate research program
   * Supervised under Professor [Hao Chen](https://cse.hkust.edu.hk/~jhc/)
   * Working on abnormal detection in medical images
 
