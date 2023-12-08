@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 - [**DragVideo: Interactive Drag-style Video Editing**](https://arxiv.org/abs/2312.02216)
- <br /> CVPR24 Under Review
+ <br /> Arxiv preprint
  <br /> Yufan Deng\*, Ruida Wang\*,  __ZHANG Yuhao\*__, Chi-Keung Tang, Yu-Wing Tai
  <br /> ("\*" represents for equal contribution)
 
