@@ -15,9 +15,9 @@ Education
 * BSc in Computer Science & Mathematics, Hong Kong University of Science and Technology, 2025 (Expected)
 * Exchange (Computer Science), National University of Singapore, 2024 Spring (Expected)
 
-Courses
+Coursework
 =====
-* Cumulative CGA: 3.917/4.3, Major CGA: 3.982/4.3, WES CGA 3.93/4.0   
+* Cumulative CGA: 3.917/4.3, WES CGA 3.93/4.0   
 
 ## Publication    
 <style>
@@ -59,7 +59,7 @@ margin-left: 0px;
 <font size="3" >
 <a href="https://yfde.cc/">Yufan Deng</a>*,
 <a href="https://github.com/RickySkywalker">Ruida Wang</a>*,
-<b>Yufan Deng</b>*, 
+<b>Yuhao Zhang</b>*, 
 <a href="https://yuwingtai.github.io/">Yu-Wing Tai</a>, 
 <a href="http://www.cs.ust.hk/~cktang/">Chi-Keung Tang</a> <br>
 <i>* indicates equal contribution </i><br>

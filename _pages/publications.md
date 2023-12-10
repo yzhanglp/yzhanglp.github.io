@@ -44,7 +44,7 @@ margin-left: 0px;
 <font size="3" >
 <a href="https://yfde.cc/">Yufan Deng</a>*,
 <a href="https://github.com/RickySkywalker">Ruida Wang</a>*,
-<b>Yufan Deng</b>*, 
+<b>Yuhao Zhang</b>*, 
 <a href="https://yuwingtai.github.io/">Yu-Wing Tai</a>, 
 <a href="http://www.cs.ust.hk/~cktang/">Chi-Keung Tang</a> <br>
 <i>* indicates equal contribution </i><br>
