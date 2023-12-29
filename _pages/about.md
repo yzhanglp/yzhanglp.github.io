@@ -17,7 +17,7 @@ Education
 
 Coursework
 =====
-* Cumulative CGA: 3.917/4.3, WES CGA 3.93/4.0   
+* Cumulative CGA: 3.967/4.3, WES CGA 3.94/4.0   
 
 ## Publication    
 <style>
