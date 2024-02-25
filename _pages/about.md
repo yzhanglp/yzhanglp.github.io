@@ -20,7 +20,8 @@ Coursework
 * Cumulative CGA(top 2%): 3.967/4.3, WES CGA 3.94/4.0   
 * Selected Course: PG Level Machinle Learning(A+), Advanced Probability Theory(A+), Algorithm(A+), Numerical Analysis (A+)
 
-## Publication    
+Publication
+====   
 <style>
 .pub{
 margin: 10px auto;
