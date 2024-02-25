@@ -50,6 +50,7 @@ margin-left: 0px;
 <i>* indicates equal contribution </i><br>
 <!-- <i> arXiv preprint, 2023 </i> <br> -->
 <a href="https://arxiv.org/abs/2312.02216">[Paper]</a> <a href="https://github.com/RickySkywalker/DragVideo-Official">[Github]</a>
+<b>Selected to Hugging Face daily paper within 48 hours after submission</b><br>
 </font>
 </div>
 </div>
