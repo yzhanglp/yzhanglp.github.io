@@ -15,8 +15,7 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "CV"
+  - title: "Resume"
     url: /assets/files/ZYH_CV.pdf
-    
   # - title: "Guide"
   #   url: /markdown/

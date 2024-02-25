@@ -4,7 +4,7 @@ collection: publications
 permalink: https://arxiv.org/abs/2312.02216
 excerpt: 'We propose a novel drag-style video editing method for users to interactively editing video through diffusion models.'
 date: 2023-11-01
-venue: 'under CVPR Review'
+venue: 'under Review'
 # citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
 
