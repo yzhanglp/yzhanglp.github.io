@@ -19,3 +19,5 @@ main:
     url: /assets/files/ZYH_CV.pdf
   # - title: "Guide"
   #   url: /markdown/
+  - title: "Posts"
+    url: /posts/
