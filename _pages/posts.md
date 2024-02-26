@@ -7,7 +7,7 @@ redirect_from:
   - /posts
 ---
 
-# Course Materials    
+<details><summary># Course Materials </summary>   
 
 ## [Nus CS2113(Software Engineering)](https://yzhanglp.com/ip/)<b/>
 
@@ -17,3 +17,4 @@ redirect_from:
 
 ## [Nus Stat3131(Regression)](https://github.com/yzhanglp/NUS_ST3131)<b/>
 
+</details>
