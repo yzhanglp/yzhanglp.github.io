@@ -7,14 +7,15 @@ redirect_from:
   - /posts
 ---
 
-<details><summary># Course Materials </summary>   
+<details>  
+<summary> **Course Materials** </summary>   
 
-## [Nus CS2113(Software Engineering)](https://yzhanglp.com/ip/)<b/>
+[Nus CS2113(Software Engineering)](https://yzhanglp.com/ip/)<b/>
 
-## [Nus CS4243(Coputer Vision)](https://github.com/yzhanglp/NUS_CS4243)<b/>
+[Nus CS4243(Coputer Vision)](https://github.com/yzhanglp/NUS_CS4243)<b/>
 
-## [Nus CS3236(Information Theory)](https://github.com/yzhanglp/NUS_CS3236)<b/>
+[Nus CS3236(Information Theory)](https://github.com/yzhanglp/NUS_CS3236)<b/>
 
-## [Nus Stat3131(Regression)](https://github.com/yzhanglp/NUS_ST3131)<b/>
+[Nus Stat3131(Regression)](https://github.com/yzhanglp/NUS_ST3131)<b/>
 
 </details>
