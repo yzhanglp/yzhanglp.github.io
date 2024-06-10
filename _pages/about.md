@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a third-year student majoring in Computer Science & Mathematics in HKUST. My research interest lies in Computer Vision and Machine Learning. I am now doing research guided by Chi-Keung Tang and Yu-Wing Tai. Feel free to chat if you have similar research interest with me!
+Hi! I am a third-year student majoring in Computer Science & Mathematics at HKUST. I'm now doing a research Internship at Stanford University with Prof.JiaJun Wu and Postdoc.Elliott Wu. My research interest lies in 3D Computer Vision and Machine Learning, specifically, I am now researching on auto rigging and skinning for 3D objects. I also did some research on diffusion-based video editing guided by Chi-Keung Tang and Yu-Wing Tai. Feel free to chat if you have a similar research interest with me!
 
 Education
 ======
 * BSc in Computer Science & Mathematics, Hong Kong University of Science and Technology, 2025 (Expected)
-* Exchange (Computer Science), National University of Singapore, 2024 Spring (Expected)
+* Exchange (Computer Science), National University of Singapore, 2024 Spring 
+* Summer intern(Computer Science), Stanford University
 
 Coursework
 =====
