@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a third-year student majoring in Computer Science & Mathematics at HKUST. I'm now doing a research Internship at Stanford University with Prof.JiaJun Wu and Postdoc.Elliott Wu. My research interest lies in 3D Computer Vision and Machine Learning, specifically, I am now researching on auto rigging and skinning for 3D objects. I also did some research on diffusion-based video editing guided by Chi-Keung Tang and Yu-Wing Tai. Feel free to chat if you have a similar research interest with me!
+Hi! I am a third-year student majoring in Computer Science & Mathematics at HKUST. I'm now doing a research Internship at Stanford University with [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and AIGC, specifically, I am now researching on auto rigging and skinning for 3D objects. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/). I am interested in applying for PhD position in 2025 Fall. Feel free to chat if you have a similar research interest with me!
 
 Education
 ======
@@ -58,7 +58,7 @@ margin-left: 0px;
 <img src="../assets/images/dragvideo.gif" alt="dragvideo" />
 </div>
 <div class="bdtext">
-<h3>DragVideo: Interactive Drag-style Video Editing</h3>
+<h3>[ECCV 2024] DragVideo: Interactive Drag-style Video Editing</h3>
 <font size="3" >
 <a href="https://yfde.cc/">Yufan Deng</a>*,
 <a href="https://github.com/RickySkywalker">Ruida Wang</a>*,
