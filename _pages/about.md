@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a third-year student majoring in Computer Science & Mathematics at HKUST. I'm now doing a research Internship at Stanford University with [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and AIGC, specifically, I am now researching on auto rigging and skinning for 3D objects. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/). I am interested in applying for PhD position in 2025 Fall. Feel free to chat if you have a similar research interest with me!
+Hi! I am a senior undergraduate student majoring in Computer Science & Mathematics at HKUST. I'm now a research Internship at Stanford University guided by [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and generation model, specifically, I am now researching on auto rigging and skinning to animate 3D objects. My research goal is to enable machine to understand the dynamic 3D world through learning. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/). I am interested in applying for PhD position in 2025 Fall.
 
 Education
 ======
