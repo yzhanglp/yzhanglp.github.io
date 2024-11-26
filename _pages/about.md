@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a senior undergraduate student majoring in Computer Science & Mathematics at HKUST. I'm now a research Internship at Stanford University guided by [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and generation model, specifically, I am now researching on auto rigging and skinning to animate 3D objects. My research goal is to enable machine to understand the dynamic world through learning based method. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/). I am interested in applying for PhD position in 2025 Fall.
+Hi! I am a senior undergraduate student majoring in Computer Science & Mathematics at HKUST. I'm now a research Internship at Stanford University guided by [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and generation model, specifically, I am now researching on auto rigging and skinning to animate 3D objects. My research goal is to enable machine to perceive dynamic physic world through learning-based method. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/). I am interested in applying for Ph.D position in 2025 Fall.
 
 Education
 ======
@@ -18,7 +18,7 @@ Education
 
 Coursework
 =====
-* Cumulative CGA(top 2%): 3.967/4.3, WES CGA 3.94/4.0   
+* Cumulative CGA(top 2%): 3.967/4.3 
 * Selected Course: PG Level Machinle Learning(A+), Advanced Probability Theory(A+), Algorithm(A+), Numerical Analysis (A+)
 
 Publication
@@ -66,8 +66,9 @@ margin-left: 0px;
 <a href="https://yuwingtai.github.io/">Yu-Wing Tai</a>, 
 <a href="http://www.cs.ust.hk/~cktang/">Chi-Keung Tang</a> <br>
 <i>* indicates equal contribution </i><br>
+ECCV 2024 <br>
 <!-- <i> arXiv preprint, 2023 </i> <br> -->
-<a href="https://arxiv.org/abs/2312.02216">[Paper]</a> <a href="https://github.com/RickySkywalker/DragVideo-Official">[Github]</a><br>
+<a href="https://dragvideo.github.io">[Page]</a> <a href="https://arxiv.org/abs/2312.02216">[Paper]</a> <a href="https://github.com/RickySkywalker/DragVideo-Official">[Code]</a>
 <b>Selected to Hugging Face daily paper within 48 hours after submission</b><br>
 </font>
 </div>
@@ -79,3 +80,8 @@ Note
 - [**Understanding the Theory Behind Transformers: An Overview of current research**](../assets/files/comp5212.pdf)
 <br /> PG level Machine Learning Course Project
 <br /> A brief summary of some current research on understanding Transformer
+
+## Academic Activities
+* Heidelberg Laureate Forum, Heidelberg, Germany, Sep 2024 
+* European Conference on Computer Vision (ECCV), Milano, October 2024
+
