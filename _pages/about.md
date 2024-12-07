@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a senior undergraduate student majoring in Computer Science & Mathematics at HKUST. I'm now a research Intern at Stanford University supervised by [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and generation model, with a specific interest in *leveraging machine learning techniques to comprehend dynamic information in the physical world*. My research goal is to enable machine to understand the dynamic world around us. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/). I am interested in applying for Ph.D position in 2025 Fall.
+Hi! I am a senior undergraduate student majoring in Computer Science & Mathematics at HKUST. I'm now a research Intern at Stanford University supervised by [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and generation model, with a specific interest in *leveraging machine learning techniques to comprehend dynamic information in the physical world*. My research goal is to enable machine to understand the dynamic world around us. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/).    
+I am interested in applying for Ph.D position in 2025 Fall.
 
 Education
 ======
 * BSc in Computer Science & Mathematics, Hong Kong University of Science and Technology, 2025 (Expected)
 * Exchange (Computer Science), National University of Singapore, 2024 Spring 
-* Summer intern(Computer Science), Stanford University
+* Summer Research intern(Computer Science), Stanford University
 
 Coursework
 =====
