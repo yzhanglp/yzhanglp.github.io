@@ -67,7 +67,6 @@ margin-left: 0px;
 <a href="https://yuwingtai.github.io/">Yu-Wing Tai</a>, 
 <a href="http://www.cs.ust.hk/~cktang/">Chi-Keung Tang</a> <br>
 <i>* indicates equal contribution </i><br>
-ECCV 2024 <br>
 <!-- <i> arXiv preprint, 2023 </i> <br> -->
 <a href="https://dragvideo.github.io">[Page]</a> <a href="https://arxiv.org/abs/2312.02216">[Paper]</a> <a href="https://github.com/RickySkywalker/DragVideo-Official">[Code]</a><br>
 <b>Selected to Hugging Face daily paper within 48 hours after submission</b><br>
