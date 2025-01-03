@@ -109,5 +109,22 @@ Under Review: CVPR 2025 <br>
 * European Conference on Computer Vision (ECCV), Milano, October 2024
   
 <body>
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=rUF992iYQWrZ_LL1QubVCDfh8_5rwRTDGQH_ZDxDV4A&cl=ffffff&w=a"></script>
+    <!-- 可折叠的地图部分 -->
+    <div style="width: 100%; max-width: 800px; margin: auto; text-align: center;">
+        <button onclick="toggleMap()" style="background: none; border: none; color: #666; cursor: pointer; margin-bottom: 1rem; font-size: 0.9rem;">
+            Show Visitors Map
+        </button>
+        <div id="mapContainer" style="display: none; width: 100%; max-width: 800px; margin: auto; position: relative;">
+            <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=b7bbce&amp;w=a&amp;t=n&amp;d=z4YwVPEqLess2QRcopfZP470E6z9y3FHwqrYKv6f2AM&amp;co=ffffff&amp;cmn=fff200&amp;cmo=ff0000&amp;ct=000000"></script>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- 添加内联脚本 -->
+    <script>
+        function toggleMap() {
+            const container = document.getElementById('mapContainer');
+            const isHidden = container.style.display === 'none';
+            container.style.display = isHidden ? 'block' : 'none';
+        }
+    </script>
 </body>
