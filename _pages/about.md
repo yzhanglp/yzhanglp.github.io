@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a senior undergraduate student majoring in Computer Science & Mathematics at HKUST. I'm now a research Intern at Stanford University supervised by [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and generation model, with a specific interest in **leveraging machine learning techniques to comprehend dynamic information in the physical world**. My research goal is to enable machine to understand the dynamic world around us. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/).    
-I am interested in applying for Ph.D position in 2025 Fall.
+Hi! I am a senior undergraduate student majoring in Computer Science & Mathematics at HKUST. I'm now a research Intern at Stanford University supervised by [JiaJun Wu](https://jiajunwu.com/) and [Elliott Wu](https://elliottwu.com/). My research interest lies in 3D Computer Vision and generation model, with a specific interest in **leveraging machine learning techniques to comprehend dynamic information in the physical world**. My research goal is to enable machine to understand the dynamic world around us. I also did some research on diffusion-based video editing guided by [Chi-Keung Tang](https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang) and [Yu-Wing Tai](https://yuwingtai.github.io/). 
+
+I am looking for Fall 2025 Ph.D. position. See my Statement [here](https://drive.google.com/file/d/1LOdBQAeFrsNaj1tBhf_gnHAQhmvHo5Hc/view?usp=sharing).
 
 Education
 ======
@@ -23,6 +24,7 @@ Coursework
 * Selected Course: PG Level Machinle Learning(A+), Advanced Probability Theory(A+), Algorithm(A+), Numerical Analysis (A+)
 
 Publication
+(* indicates equal contribution)
 ====   
 <style>
 .pub{
@@ -61,7 +63,7 @@ margin-left: 0px;
 <div class="bdtext">
 <h3>[ECCV 2024] DragVideo: Interactive Drag-style Video Editing</h3>
 <font size="3" >
-<a href="https://yfde.cc/">Yufan Deng</a>*,
+<a href="https://yufandeng.com/">Yufan Deng</a>*,
 <a href="https://github.com/RickySkywalker">Ruida Wang</a>*,
 <b>Yuhao Zhang</b>*, 
 <a href="https://yuwingtai.github.io/">Yu-Wing Tai</a>, 
@@ -75,11 +77,32 @@ margin-left: 0px;
 </div>
 </body>
 
-Note
+<body class='typora-export os-windows'>
+<div class="pub">
+<div class="bdcard">
+<img src="../assets/images/anymate.gif" alt="anymate" />
+</div>
+<div class="bdtext">
+<h3>Anymate: A Dataset and Baselines for
+Learning 3D Object Rigging</h3>
+<font size="3" >
+<a href="https://yufandeng.com/"><i>Yufan Deng</i></a>*, 
+<b><i>Yuhao Zhang</i></b>*, 
+<a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
+<a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>, 
+<a href="https://jiajunwu.com/"><i>Shangzhe Wu</i></a> <br>
+Under Review: CVPR 2025 <br>
+<a href="https://drive.google.com/file/d/1LR19cQ_jACRaloVLlNCJzDb7nzUwK9j3/view">[Paper]</a>
+</font>
+</div>
+</div>
+</body>
+
+<!-- Note
 ======
 - [**Understanding the Theory Behind Transformers: An Overview of current research**](../assets/files/comp5212.pdf)
 <br /> PG level Machine Learning Course Project
-<br /> A brief summary of some current research on understanding Transformer
+<br /> A brief summary of some current research on understanding Transformer -->
 
 ## Academic Activities
 * Heidelberg Laureate Forum, Heidelberg, Germany, Sep 2024 
