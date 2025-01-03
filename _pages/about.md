@@ -107,4 +107,7 @@ Under Review: CVPR 2025 <br>
 ## Academic Activities
 * Heidelberg Laureate Forum, Heidelberg, Germany, Sep 2024 
 * European Conference on Computer Vision (ECCV), Milano, October 2024
-
+  
+<body>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=rUF992iYQWrZ_LL1QubVCDfh8_5rwRTDGQH_ZDxDV4A&cl=ffffff&w=a"></script>
+</body>
