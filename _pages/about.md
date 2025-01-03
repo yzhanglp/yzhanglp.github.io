@@ -24,8 +24,9 @@ Coursework
 * Selected Course: PG Level Machinle Learning(A+), Advanced Probability Theory(A+), Algorithm(A+), Numerical Analysis (A+)
 
 Publication
-(* indicates equal contribution)
 ====   
+(* indicates equal contribution)
+
 <style>
 .pub{
 margin: 10px auto;
