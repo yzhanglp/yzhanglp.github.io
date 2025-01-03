@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yuhao ZHANG"
 title_separator          : "-"
 name                     : &name "Yuhao ZHANG"
-description              : &description "Junior Undergraduate @ HKUST"
+description              : &description "Senior Undergraduate @ HKUST"
 url                      : https://yzhanglp.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : yzhanglp/yzhanglp.github.io
