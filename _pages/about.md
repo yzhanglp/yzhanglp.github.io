@@ -86,13 +86,13 @@ margin-left: 0px;
 <h3>Anymate: A Dataset and Baselines for
 Learning 3D Object Rigging</h3>
 <font size="3" >
-<a href="https://yufandeng.com/"><i>Yufan Deng</i></a>*, 
 <b><i>Yuhao Zhang</i></b>*, 
+<a href="https://yufandeng.com/"><i>Yufan Deng</i></a>*, 
 <a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
 <a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>, 
 <a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a> <br>
 Under Review <br>
-<a href="https://drive.google.com/file/d/1LR19cQ_jACRaloVLlNCJzDb7nzUwK9j3/view">[Paper]</a>
+<a href="https://drive.google.com/file/d/1Vn8dnKP51RmG9-PwDOdU6ZAlWR33gD0Y/view?usp=sharing">[Paper]</a>
 </font>
 </div>
 </div>
