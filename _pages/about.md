@@ -91,7 +91,6 @@ Learning 3D Object Rigging</h3>
 <a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
 <a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>†, 
 <a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a> <br>†
-Under Review <br>
 <a href="https://drive.google.com/file/d/11i3bD7olIMSDN_h9yt97eJUZwQvBzfbr/view?usp=sharing">[Paper]</a>
 </font>
 </div>
