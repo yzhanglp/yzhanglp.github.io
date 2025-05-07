@@ -25,7 +25,7 @@ Coursework
 
 Publication
 ====   
-(* indicates equal contribution)
+(*: equal contribution, †: equal advising)
 
 <style>
 .pub{
@@ -67,8 +67,8 @@ margin-left: 0px;
 <a href="https://yufandeng.com/">Yufan Deng</a>*,
 <a href="https://github.com/RickySkywalker">Ruida Wang</a>*,
 <b>Yuhao Zhang</b>*, 
-<a href="https://yuwingtai.github.io/">Yu-Wing Tai</a>, 
-<a href="http://www.cs.ust.hk/~cktang/">Chi-Keung Tang</a> <br>
+<a href="https://yuwingtai.github.io/">Yu-Wing Tai</a>†, 
+<a href="http://www.cs.ust.hk/~cktang/">Chi-Keung Tang</a>† <br>
 <!-- <i> arXiv preprint, 2023 </i> <br> -->
 <a href="https://dragvideo.github.io">[Page]</a> <a href="https://arxiv.org/abs/2312.02216">[Paper]</a> <a href="https://github.com/RickySkywalker/DragVideo-Official">[Code]</a><br>
 <b>Selected to Hugging Face daily paper</b><br>
@@ -83,16 +83,16 @@ margin-left: 0px;
 <img src="../assets/images/anymate.gif" alt="anymate" />
 </div>
 <div class="bdtext">
-<h3>Anymate: A Dataset and Baselines for
+<h3>[SIGGRAPH 2025]Anymate: A Dataset and Baselines for
 Learning 3D Object Rigging</h3>
 <font size="3" >
 <b><i>Yuhao Zhang</i></b>*, 
 <a href="https://yufandeng.com/"><i>Yufan Deng</i></a>*, 
 <a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
-<a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>, 
-<a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a> <br>
+<a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>†, 
+<a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a> <br>†
 Under Review <br>
-<a href="https://drive.google.com/file/d/1Vn8dnKP51RmG9-PwDOdU6ZAlWR33gD0Y/view?usp=sharing">[Paper]</a>
+<a href="https://drive.google.com/file/d/11i3bD7olIMSDN_h9yt97eJUZwQvBzfbr/view?usp=sharing">[Paper]</a>
 </font>
 </div>
 </div>
