@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a first year PhD student at the Department of Computing, [Imperial College London](https://www.imperial.ac.uk/). 
-I received my Bachelor's degree in Computer Science & Mathematics from the Hong Kong University of Science and Technology (HKUST) in 2025.
-My research interest lies in 3D Computer Vision and generation model, 
-with a specific interest in leveraging machine learning techniques to comprehend dynamic information in the physical world. 
-My research goal is to enable machine to understand the dynamic world around us
+Hi! I am a first year PhD student at [Imperial College London](https://www.imperial.ac.uk/), advised by [Tolga Birda](https://tolgabirdal.github.io/) and [Gerard Pons-Moll](https://virtualhumans.mpi-inf.mpg.de/).      
+
+
+My research interest lies in 3D Computer Vision and Graphics, with a specific interest in leveraging machine learning techniques to comprehend dynamic information in the physical world. My research goal is to enable machine to understand the dynamic world around us.
+
 
 Education
 ======
@@ -89,7 +89,7 @@ Learning 3D Object Rigging</h3>
 <a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
 <a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>†, 
 <a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a>† <br>
-<a href="https://drive.google.com/file/d/11i3bD7olIMSDN_h9yt97eJUZwQvBzfbr/view?usp=sharing">[Paper]</a>
+<a href="https://anymate3d.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2505.06227">[Paper]</a> <a href="https://github.com/yfde/Anymate">[Code]</a><a href="https://huggingface.co/spaces/yfdeng/Anymate">[Demo]</a><br>
 </font>
 </div>
 </div>
