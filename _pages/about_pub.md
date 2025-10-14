@@ -91,7 +91,7 @@ Learning 3D Object Rigging</h3>
 <a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
 <a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>†, 
 <a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a>† <br>
-<a href="https://anymate3d.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2505.06227">[Paper]</a> <a href="https://github.com/yfde/Anymate">[Code]</a><a href="https://huggingface.co/spaces/yfdeng/Anymate">[Demo]</a><br>
+<a href="https://anymate3d.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2505.06227">[Paper]</a> <a href="https://github.com/yfde/Anymate">[Code]</a> <a href="https://huggingface.co/spaces/yfdeng/Anymate">[Demo]</a><br>
 </font>
 </div>
 </div>
