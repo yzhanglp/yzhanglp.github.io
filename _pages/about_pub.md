@@ -54,7 +54,25 @@ margin-left: 0px;
 }
 </style>
 
-
+<body class='typora-export os-windows'>
+<div class="pub">
+<div class="bdcard">
+<img src="../assets/images/anymate.gif" alt="anymate" />
+</div>
+<div class="bdtext">
+<h3>[SIGGRAPH 2025]Anymate: A Dataset and Baselines for
+Learning 3D Object Rigging</h3>
+<font size="3" >
+<b><i>Yuhao Zhang</i></b>*, 
+<a href="https://yufandeng.com/"><i>Yufan Deng</i></a>*, 
+<a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
+<a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>†, 
+<a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a>† <br>
+<a href="https://anymate3d.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2505.06227">[Paper]</a> <a href="https://github.com/yfde/Anymate">[Code]</a> <a href="https://huggingface.co/spaces/yfdeng/Anymate">[Demo]</a><br>
+</font>
+</div>
+</div>
+</body>
 
 <body class='typora-export os-windows'>
 <div class="pub">
@@ -72,26 +90,6 @@ margin-left: 0px;
 <!-- <i> arXiv preprint, 2023 </i> <br> -->
 <a href="https://dragvideo.github.io">[Page]</a> <a href="https://arxiv.org/abs/2312.02216">[Paper]</a> <a href="https://github.com/RickySkywalker/DragVideo-Official">[Code]</a><br>
 <b>Selected to Hugging Face daily paper</b><br>
-</font>
-</div>
-</div>
-</body>
-
-<body class='typora-export os-windows'>
-<div class="pub">
-<div class="bdcard">
-<img src="../assets/images/anymate.gif" alt="anymate" />
-</div>
-<div class="bdtext">
-<h3>[SIGGRAPH 2025]Anymate: A Dataset and Baselines for
-Learning 3D Object Rigging</h3>
-<font size="3" >
-<b><i>Yuhao Zhang</i></b>*, 
-<a href="https://yufandeng.com/"><i>Yufan Deng</i></a>*, 
-<a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
-<a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>†, 
-<a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a>† <br>
-<a href="https://anymate3d.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2505.06227">[Paper]</a> <a href="https://github.com/yfde/Anymate">[Code]</a> <a href="https://huggingface.co/spaces/yfdeng/Anymate">[Demo]</a><br>
 </font>
 </div>
 </div>
