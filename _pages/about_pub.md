@@ -8,11 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a first year PhD student at [Imperial College London](https://www.imperial.ac.uk/), advised by [Tolga Birda](https://tolgabirdal.github.io/) and [Gerard Pons-Moll](https://virtualhumans.mpi-inf.mpg.de/).      
+Hi! I am a first year PhD student at [Imperial College London](https://www.imperial.ac.uk/), advised by [Tolga Birda](https://tolgabirdal.github.io/) and [Gerard Pons-Moll](https://virtualhumans.mpi-inf.mpg.de/). Previously, I received my Bachelor's degree in Computer Science & Mathematics from the Hong Kong University of Science and Technology (HKUST).  
 
 
 My research interest lies in 3D Computer Vision and Graphics, with a specific interest in leveraging machine learning techniques to comprehend dynamic information in the physical world. My research goal is to enable machine to understand the dynamic world around us.
 
+
+Feel free to reach out for potential collaborations or discussions!
 
 Education
 ======
