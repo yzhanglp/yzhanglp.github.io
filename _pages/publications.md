@@ -37,7 +37,7 @@ margin-left: 0px;
 <body class='typora-export os-windows'>
 <div class="pub">
 <div class="bdcard">
-<img src="../assets/images/samor.gif" alt="samor" />
+<img src="../assets/images/samor.gif?v=3" alt="samor" />
 </div>
 <div class="bdtext">
 <h3>SaMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology</h3>
