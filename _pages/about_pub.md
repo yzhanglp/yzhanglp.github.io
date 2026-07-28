@@ -62,9 +62,9 @@ margin-left: 0px;
 <div class="bdtext">
 <h3>SaMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology</h3>
 <font size="3" >
-<b><i>Yuhao Zhang</i></b>,
-<a href="https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html"><i>Gerard Pons-Moll</i></a>†,
-<a href="https://tolgabirdal.github.io/"><i>Tolga Birdal</i></a>† <br>
+<b>Yuhao Zhang</b>,
+<a href="https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html">Gerard Pons-Moll</a>†,
+<a href="https://tolgabirdal.github.io/">Tolga Birdal</a>† <br>
 <a href="https://circle-group.github.io/research/SaMoR/">[Page]</a> <a href="https://arxiv.org/abs/2607.02148">[Paper]</a><br>
 </font>
 </div>
@@ -80,11 +80,11 @@ margin-left: 0px;
 <h3>[SIGGRAPH 2025]Anymate: A Dataset and Baselines for
 Learning 3D Object Rigging</h3>
 <font size="3" >
-<b><i>Yuhao Zhang</i></b>*, 
-<a href="https://yufandeng.com/"><i>Yufan Deng</i></a>*, 
-<a href="https://chen-geng.com/"><i>Chen Geng</i></a>, 
-<a href="https://elliottwu.com/"><i>Shangzhe Wu</i></a>†, 
-<a href="https://jiajunwu.com/"><i>Jiajun Wu</i></a>† <br>
+<b>Yuhao Zhang</b>*, 
+<a href="https://yufandeng.com/">Yufan Deng</a>*, 
+<a href="https://chen-geng.com/">Chen Geng</a>, 
+<a href="https://elliottwu.com/">Shangzhe Wu</a>†, 
+<a href="https://jiajunwu.com/">Jiajun Wu</a>† <br>
 <a href="https://anymate3d.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2505.06227">[Paper]</a> <a href="https://github.com/yfde/Anymate">[Code]</a> <a href="https://huggingface.co/spaces/yfdeng/Anymate">[Demo]</a><br>
 </font>
 </div>
