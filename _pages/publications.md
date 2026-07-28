@@ -37,6 +37,23 @@ margin-left: 0px;
 <body class='typora-export os-windows'>
 <div class="pub">
 <div class="bdcard">
+<img src="../assets/images/samor.gif" alt="samor" />
+</div>
+<div class="bdtext">
+<h3>SaMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology</h3>
+<font size="3" >
+<b>Yuhao Zhang</b>,
+<a href="https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html">Gerard Pons-Moll</a>,
+<a href="https://tolgabirdal.github.io/">Tolga Birdal</a> <br>
+<i>arXiv preprint, 2026 </i> <br>
+<a href="https://arxiv.org/abs/2607.02148">[Paper]</a>
+<a href="https://circle-group.github.io/research/SaMoR/">[Project Page]</a> <br>
+</font>
+</div>
+</div>
+
+<div class="pub">
+<div class="bdcard">
 <img src="../assets/images/dragvideo.gif" alt="dragvideo" />
 </div>
 <div class="bdtext">
