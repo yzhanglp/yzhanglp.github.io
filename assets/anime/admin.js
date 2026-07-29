@@ -126,6 +126,11 @@ async function handleUpdate(id, patch) {
   try {
     await updateAnime(id, patch);
     await loadItems();
+    // Auto-sync to Bangumi if connected
+    if (state.bgmConn?.connected) {
+      if ("local_status" in patch) handleSync(id, "status");
+      if ("progress"     in patch) handleSync(id, "progress");
+    }
   } catch (e) {
     showToast(e.message, "err");
   }
@@ -264,17 +269,21 @@ function renderSearchDialog() {
 
 function renderAdminCard(item) {
   const name = item.nameCn || item.name;
+  const syncing = state.syncing[item.id+"status"] || state.syncing[item.id+"progress"];
   return `
 <div class="adm-card" data-id="${item.id}">
   <div class="adm-card-cover">
-    ${item.image
-      ? `<img src="${item.image}" alt="${escHtml(name)}" loading="lazy">`
-      : `<div class="anime-card-cover-placeholder">📺</div>`}
+    <a href="https://bgm.tv/subject/${item.subjectId}" target="_blank" rel="noopener">
+      ${item.image
+        ? `<img src="${item.image}" alt="${escHtml(name)}" loading="lazy">`
+        : `<div class="anime-card-cover-placeholder">📺</div>`}
+    </a>
   </div>
   <div class="adm-card-body">
-    <div class="adm-card-title">${escHtml(name)}</div>
-    <div class="adm-card-meta">${escHtml(item.name)}${item.airDate ? " · " + item.airDate.slice(0,4) : ""}</div>
-    <div class="adm-card-score">${item.score ? "★ " + item.score.toFixed(1) + " · #" + item.rank : "—"}</div>
+    <div class="adm-card-title">
+      <a class="adm-title-link" href="https://bgm.tv/subject/${item.subjectId}" target="_blank" rel="noopener">${escHtml(name)}</a>
+    </div>
+    <div class="adm-card-meta">${item.airDate ? item.airDate.slice(0,4) + " · " : ""}${item.score ? "★ " + item.score.toFixed(1) : "—"}</div>
     <div class="adm-card-controls">
       <select class="adm-select" data-field="local_status" data-id="${item.id}">
         ${Object.entries(STATUS_LABEL).map(([k,v]) =>
@@ -284,28 +293,13 @@ function renderAdminCard(item) {
       <input class="adm-input adm-input-ep" type="number" min="0" max="${item.totalEpisodes ?? 9999}"
              value="${item.progress}" data-field="progress" data-id="${item.id}">
       ${item.totalEpisodes ? `<span class="adm-ep-total">/ ${item.totalEpisodes}</span>` : ""}
-      <label class="adm-label">Rating</label>
-      <input class="adm-input adm-input-rating" type="number" min="1" max="10"
-             value="${item.personalRating ?? ""}" placeholder="—" data-field="personal_rating" data-id="${item.id}">
       <label class="adm-label adm-public-label">
         <input type="checkbox" class="adm-checkbox" data-field="is_public" data-id="${item.id}"${item.isPublic?" checked":""}>
         Public
       </label>
     </div>
     <div class="adm-sync-row">
-      ${state.bgmConn?.connected ? `
-        <button class="btn-secondary adm-sync" data-id="${item.id}" data-action="status"
-          ${state.syncing[item.id+"status"] ? "disabled" : ""}>
-          ${state.syncing[item.id+"status"] ? "…" : "↑ Status"}
-        </button>
-        <button class="btn-secondary adm-sync" data-id="${item.id}" data-action="rating"
-          ${state.syncing[item.id+"rating"] ? "disabled" : ""}>
-          ${state.syncing[item.id+"rating"] ? "…" : "↑ Rating"}
-        </button>
-        <button class="btn-secondary adm-sync" data-id="${item.id}" data-action="progress"
-          ${state.syncing[item.id+"progress"] ? "disabled" : ""}>
-          ${state.syncing[item.id+"progress"] ? "…" : "↑ Progress"}
-        </button>` : ""}
+      ${syncing ? `<span class="adm-syncing-indicator">↑ Syncing…</span>` : ""}
       <button class="btn-danger adm-remove" data-id="${item.id}" data-name="${escHtml(name)}">Remove</button>
     </div>
   </div>
@@ -318,9 +312,6 @@ function bindDashboard() {
   app.querySelector("#adm-logout")?.addEventListener("click", logout);
   app.querySelector("#adm-reload")?.addEventListener("click", loadItems);
   app.querySelector("#adm-bgm-connect")?.addEventListener("click", () => startBangumiOAuth().catch(e => showToast(e.message, "err")));
-  app.querySelectorAll(".adm-sync").forEach(btn => {
-    btn.addEventListener("click", () => handleSync(btn.dataset.id, btn.dataset.action));
-  });
   app.querySelector("#adm-search-open")?.addEventListener("click", () => {
     state.searchOpen = true; render();
   });
@@ -353,9 +344,7 @@ function bindDashboard() {
   });
   app.querySelectorAll(".adm-input").forEach(inp => {
     inp.addEventListener("change", () => {
-      const v = inp.dataset.field === "progress" ? +inp.value
-              : inp.dataset.field === "personal_rating" ? (inp.value ? +inp.value : null)
-              : inp.value;
+      const v = inp.dataset.field === "progress" ? +inp.value : inp.value;
       handleUpdate(inp.dataset.id, { [inp.dataset.field]: v });
     });
   });
@@ -401,6 +390,10 @@ style.textContent = `
 .adm-checkbox { accent-color:#222; }
 .adm-sync-row { display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.4rem; }
 .adm-bgm-status { font-size:.8rem; color:#555; align-self:center; }
+.adm-title-link { color:inherit; text-decoration:none; }
+.adm-title-link:hover { text-decoration:underline; }
+.adm-syncing-indicator { font-size:.72rem; color:#888; align-self:center; }
+.adm-card-cover a { display:block; }
 `;
 document.head.appendChild(style);
 
