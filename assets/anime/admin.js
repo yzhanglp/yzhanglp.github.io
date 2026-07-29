@@ -3,6 +3,7 @@ import { supabase } from "./supabase-client.js";
 import {
   getAdminWatchlist, addAnime, updateAnime, removeAnime,
   searchBangumi, getBangumiSubject, getBangumiEpisodes,
+  getBangumiStatus, startBangumiOAuth, syncToBangumi,
 } from "./api.js";
 
 const STATUS_LABEL = {
@@ -17,9 +18,11 @@ let state = {
   searchOpen: false,
   searchQuery: "",
   searching: false,
-  adding: null,   // subject id being added
+  adding: null,
   loading: true,
   toast: null,
+  bgmConn: null,   // { connected, bangumiUsername } or null
+  syncing: {},     // { [itemId+action]: true }
 };
 
 // ── Toast ──────────────────────────────────────────────────────────────────
@@ -35,7 +38,18 @@ function showToast(msg, type = "info") {
 async function init() {
   const { data: { session } } = await supabase.auth.getSession();
   state.session = session;
-  if (session) await loadItems();
+  if (session) {
+    await loadItems();
+    loadBgmStatus();
+    // Handle OAuth callback redirect
+    const p = new URLSearchParams(location.search);
+    if (p.has("bangumi")) {
+      const v = p.get("bangumi");
+      if (v === "connected") showToast("Bangumi connected!", "ok");
+      else showToast("Bangumi error: " + (p.get("reason") ?? "unknown"), "err");
+      history.replaceState({}, "", location.pathname);
+    }
+  }
   state.loading = false;
   render();
 
@@ -61,6 +75,28 @@ async function logout() {
 async function loadItems() {
   state.items = await getAdminWatchlist();
   render();
+}
+
+async function loadBgmStatus() {
+  try { state.bgmConn = await getBangumiStatus(); } catch { state.bgmConn = null; }
+  render();
+}
+
+async function handleSync(itemId, action) {
+  const key = itemId + action;
+  if (state.syncing[key]) return;
+  state.syncing[key] = true;
+  render();
+  try {
+    await syncToBangumi(itemId, action);
+    showToast(`Synced ${action} to Bangumi ✓`, "ok");
+    await loadItems();
+  } catch (e) {
+    showToast("Sync failed: " + e.message, "err");
+  } finally {
+    delete state.syncing[key];
+    render();
+  }
 }
 
 async function handleAdd(bgmId) {
@@ -174,12 +210,17 @@ function renderDashboard() {
   const toastHtml = state.toast
     ? `<div class="adm-toast adm-toast-${state.toast.type}">${state.toast.msg}</div>`
     : "";
+  const bgm = state.bgmConn;
+  const bgmBtn = bgm?.connected
+    ? `<span class="adm-bgm-status">🟢 Bangumi: <b>${escHtml(bgm.bangumiUsername ?? "connected")}</b></span>`
+    : `<button class="btn-secondary" id="adm-bgm-connect">🔗 Connect Bangumi</button>`;
   return `
 ${toastHtml}
 <div class="admin-toolbar">
   <h2>⚙️ Anime Admin</h2>
   <button class="btn-secondary" id="adm-search-open">＋ Add anime</button>
   <button class="btn-secondary" id="adm-reload">↻ Refresh</button>
+  ${bgmBtn}
   <button class="btn-secondary" id="adm-logout">Sign out</button>
 </div>
 ${state.searchOpen ? renderSearchDialog() : ""}
@@ -251,7 +292,22 @@ function renderAdminCard(item) {
         Public
       </label>
     </div>
-    <button class="btn-danger adm-remove" data-id="${item.id}" data-name="${escHtml(name)}">Remove</button>
+    <div class="adm-sync-row">
+      ${state.bgmConn?.connected ? `
+        <button class="btn-secondary adm-sync" data-id="${item.id}" data-action="status"
+          ${state.syncing[item.id+"status"] ? "disabled" : ""}>
+          ${state.syncing[item.id+"status"] ? "…" : "↑ Status"}
+        </button>
+        <button class="btn-secondary adm-sync" data-id="${item.id}" data-action="rating"
+          ${state.syncing[item.id+"rating"] ? "disabled" : ""}>
+          ${state.syncing[item.id+"rating"] ? "…" : "↑ Rating"}
+        </button>
+        <button class="btn-secondary adm-sync" data-id="${item.id}" data-action="progress"
+          ${state.syncing[item.id+"progress"] ? "disabled" : ""}>
+          ${state.syncing[item.id+"progress"] ? "…" : "↑ Progress"}
+        </button>` : ""}
+      <button class="btn-danger adm-remove" data-id="${item.id}" data-name="${escHtml(name)}">Remove</button>
+    </div>
   </div>
 </div>`;
 }
@@ -261,6 +317,10 @@ function bindDashboard() {
 
   app.querySelector("#adm-logout")?.addEventListener("click", logout);
   app.querySelector("#adm-reload")?.addEventListener("click", loadItems);
+  app.querySelector("#adm-bgm-connect")?.addEventListener("click", () => startBangumiOAuth().catch(e => showToast(e.message, "err")));
+  app.querySelectorAll(".adm-sync").forEach(btn => {
+    btn.addEventListener("click", () => handleSync(btn.dataset.id, btn.dataset.action));
+  });
   app.querySelector("#adm-search-open")?.addEventListener("click", () => {
     state.searchOpen = true; render();
   });
@@ -339,6 +399,8 @@ style.textContent = `
 .adm-input-rating { width:40px; }
 .adm-ep-total { font-size:.72rem; color:#aaa; }
 .adm-checkbox { accent-color:#222; }
+.adm-sync-row { display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.4rem; }
+.adm-bgm-status { font-size:.8rem; color:#555; align-self:center; }
 `;
 document.head.appendChild(style);
 

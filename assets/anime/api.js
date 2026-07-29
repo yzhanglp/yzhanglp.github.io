@@ -152,3 +152,38 @@ export async function getBangumiEpisodes(id) {
   const data = await bgm(`/v0/episodes?subject_id=${id}&limit=200`);
   return data.data ?? [];
 }
+
+// ── Bangumi OAuth + Sync (via Edge Functions) ───────────────────────────────
+
+const FUNCTIONS_URL = "https://ixszjmrfchqxpxyixiai.supabase.co/functions/v1";
+
+async function callFunction(name, body, method = "POST") {
+  const session = (await supabase.auth.getSession()).data.session;
+  if (!session) throw new Error("Not authenticated");
+  const res = await fetch(`${FUNCTIONS_URL}/${name}`, {
+    method,
+    headers: {
+      "Content-Type":  "application/json",
+      "Authorization": `Bearer ${session.access_token}`,
+    },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  if (!res.ok) {
+    const e = await res.json().catch(() => ({ error: res.statusText }));
+    throw new Error(e.error ?? res.statusText);
+  }
+  return res.json();
+}
+
+export async function getBangumiStatus() {
+  return callFunction("bangumi-status", null, "GET");
+}
+
+export async function startBangumiOAuth() {
+  const { url } = await callFunction("bangumi-oauth-start", {});
+  window.location.href = url;
+}
+
+export async function syncToBangumi(itemId, action) {
+  return callFunction("bangumi-sync", { itemId, action });
+}
