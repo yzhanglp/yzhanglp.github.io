@@ -108,7 +108,7 @@ function renderFilters(current, items) {
   items.forEach(x => { counts[x.status] = (counts[x.status] ?? 0) + 1; });
   const opts = [["all", "All", items.length], ...Object.entries(STATUS_LABEL).map(([k,v]) => [k, v, counts[k] ?? 0])];
   return `<div class="anime-filters">
-    ${opts.filter(([,, c]) => c > 0 || _ === "all").map(([k,v,c]) =>
+    ${opts.filter(([k,, c]) => c > 0 || k === "all").map(([k,v,c]) =>
       `<button class="filter-btn${k===current?" active":""}" data-filter="${k}">${v}${c ? ` <small>(${c})</small>` : ""}</button>`
     ).join("")}
   </div>`;
