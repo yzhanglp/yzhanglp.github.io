@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/anime/app.css' | relative_url }}" />
+
+<main class="anime-app-shell">
+  <div id="anime-app" data-mode="{{ page.anime_mode }}" aria-live="polite">
+    <div class="anime-loading">
+      <div class="anime-loading-spinner"></div>
+      <span>Loading...</span>
+    </div>
+  </div>
+</main>
+
+<script type="module" src="{{ page.anime_entry | relative_url }}"></script>
