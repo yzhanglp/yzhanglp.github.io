@@ -10,7 +10,7 @@ locale                   : "London, UK"
 title                    : "Yuhao ZHANG"
 title_separator          : "-"
 name                     : &name "Yuhao ZHANG"
-description              : &description "First-year PhD @ Imperial College"
+description              : &description "Second-year PhD @ Imperial College"
 url                      : https://yzhanglp.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : yzhanglp/yzhanglp.github.io
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yuhao ZHANG"
   avatar           : "profile.png"
-  bio              : "First-year PhD @ Imperial College, interested in Computer Vision & Graphics"
+  bio              : "Second-year PhD @ Imperial College, interested in Computer Vision & Graphics"
   location         : "Hong Kong"
   employer         :
   pubmed           : 

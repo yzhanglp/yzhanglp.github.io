@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a first year PhD student at the Department of Computing, [Imperial College London](https://www.imperial.ac.uk/). 
+Hi! I am a second year PhD student at the Department of Computing, [Imperial College London](https://www.imperial.ac.uk/). 
 I received my Bachelor's degree in Computer Science & Mathematics from the Hong Kong University of Science and Technology (HKUST) in 2025.
 My research interest lies in 3D Computer Vision and generation model, 
 with a specific interest in leveraging machine learning techniques to comprehend dynamic information in the physical world. 
