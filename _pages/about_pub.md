@@ -65,6 +65,7 @@ margin-left: 0px;
 <b>Yuhao Zhang</b>,
 <a href="https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html">Gerard Pons-Moll</a>†,
 <a href="https://tolgabirdal.github.io/">Tolga Birdal</a>† <br>
+<i>NeurIPS 2026</i> <br>
 <a href="https://circle-group.github.io/research/SaMoR/">[Page]</a> <a href="https://arxiv.org/abs/2607.02148">[Paper]</a><br>
 </font>
 </div>
