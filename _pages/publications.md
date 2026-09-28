@@ -40,12 +40,11 @@ margin-left: 0px;
 <img src="../assets/images/samor.gif?v=5" alt="samor" />
 </div>
 <div class="bdtext">
-<h3>SaMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology</h3>
+<h3>[NeurIPS 2026] SaMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology</h3>
 <font size="3" >
 <b>Yuhao Zhang</b>,
 <a href="https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html">Gerard Pons-Moll</a>,
 <a href="https://tolgabirdal.github.io/">Tolga Birdal</a> <br>
-<i>NeurIPS 2026</i> <br>
 <a href="https://arxiv.org/abs/2607.02148">[Paper]</a>
 <a href="https://circle-group.github.io/research/SaMoR/">[Project Page]</a> <br>
 </font>
