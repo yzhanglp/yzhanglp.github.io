@@ -77,7 +77,7 @@ margin-left: 0px;
 <img src="../assets/images/anymate.gif" alt="anymate" />
 </div>
 <div class="bdtext">
-<h3>[SIGGRAPH 2025]Anymate: A Dataset and Baselines for
+<h3>[SIGGRAPH 2025] Anymate: A Dataset and Baselines for
 Learning 3D Object Rigging</h3>
 <font size="3" >
 <a href="https://yufandeng.com/">Yufan Deng</a>*, 
